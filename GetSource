@@ -1814,13 +1814,13 @@ TextButton_16.BackgroundTransparency = 1.000
 TextButton_16.Position = UDim2.new(0.302768171, 0, 0.360294133, 0)
 TextButton_16.Size = UDim2.new(0, 257, 0, 75)
 TextButton_16.Font = Enum.Font.Antique
-TextButton_16.Text = "Big Paintball"
+TextButton_16.Text = "Broken - Looking For Replacement"
 TextButton_16.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_16.TextScaled = true
 TextButton_16.TextSize = 14.000
 TextButton_16.TextWrapped = true
 TextButton_16.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'), true))()
+	print ('Script Broken')
 end)
 
 ImageLabel_13.Parent = Page2
@@ -7065,7 +7065,7 @@ TextLabel_17.BackgroundTransparency = 1.000
 TextLabel_17.Position = UDim2.new(0.276536286, 0, 0.85999608, 0)
 TextLabel_17.Size = UDim2.new(0, 160, 0, 57)
 TextLabel_17.Font = Enum.Font.Antique
-TextLabel_17.Text = "~ ItsCozyBlox ~"
+TextLabel_17.Text = "~ End ~"
 TextLabel_17.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_17.TextScaled = true
 TextLabel_17.TextSize = 14.000
