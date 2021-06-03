@@ -1883,11 +1883,14 @@ TextButton_19.BackgroundTransparency = 1.000
 TextButton_19.Position = UDim2.new(0.302768171, 0, 0.360294133, 0)
 TextButton_19.Size = UDim2.new(0, 257, 0, 75)
 TextButton_19.Font = Enum.Font.Antique
-TextButton_19.Text = "Soon"
+TextButton_19.Text = "Assassin"
 TextButton_19.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_19.TextScaled = true
 TextButton_19.TextSize = 14.000
 TextButton_19.TextWrapped = true
+TextButton_19.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/bockatta/Shitter/main/Loader'))();
+end)
 
 TextLabel_8.Parent = Page2
 TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -6880,14 +6883,11 @@ TextButton_23.BackgroundTransparency = 1.000
 TextButton_23.Position = UDim2.new(0.302768171, 0, 0.360294133, 0)
 TextButton_23.Size = UDim2.new(0, 257, 0, 75)
 TextButton_23.Font = Enum.Font.Antique
-TextButton_23.Text = "Assassin"
+TextButton_23.Text = "Soon"
 TextButton_23.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_23.TextScaled = true
 TextButton_23.TextSize = 14.000
 TextButton_23.TextWrapped = true
-TextButton_23.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/bockatta/Shitter/main/Loader'))();
-end)
 
 Page4.Name = "Page4"
 Page4.Parent = Mid2
